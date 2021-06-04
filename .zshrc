@@ -99,9 +99,18 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+alias work="cd Dev/tiltify && tmux"
+alias tmux="tmux -2 # for 256color"
+alias genseeds="docker-compose run api mix ecto.setup"
 alias cn="find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
 alias ls='exa'
 alias l='exa -l --all --group-directories-first --git'
 alias tree='exa --tree'
 #alias lt='exa --long --tree'
 alias dcold='docker-compose -f docker-compose-old.yml up'
+alias dcd="docker-compose down"
+alias dcu="docker-compose up"
+
+. $HOME/.asdf/asdf.sh
+
+export PATH="$PATH:$(yarn global bin)"
