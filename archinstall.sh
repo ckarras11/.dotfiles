@@ -14,5 +14,7 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 sudo systemctl start docker
 
-# Install asdf and NodeJS plugin
+# Install asdf plugins
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
