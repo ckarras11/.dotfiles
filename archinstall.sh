@@ -8,3 +8,11 @@ chsh -s $(which zsh)
 
 # Setup user for docker
 usermod -aG docker $(whoami)
+
+# Start docker
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+sudo systemctl start docker
+
+# Install asdf and NodeJS plugin
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
