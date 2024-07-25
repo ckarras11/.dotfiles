@@ -19,3 +19,4 @@ zsh
 tmux
 teams
 visual-studio-code-bin
+dbeaver
