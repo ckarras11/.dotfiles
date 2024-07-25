@@ -20,3 +20,4 @@ tmux
 teams
 visual-studio-code-bin
 dbeaver
+yarn
