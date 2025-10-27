@@ -110,7 +110,11 @@ alias tree='exa --tree'
 alias dcold='docker-compose -f docker-compose-old.yml up'
 alias dcd="docker-compose down"
 alias dcu="docker-compose up"
+alias ld="lazydocker"
 
-. $HOME/.asdf/asdf.sh
+. "$HOME/.asdf/asdf.sh"
 
-export PATH="$PATH:$(yarn global bin)"
+. "$HOME/.local/bin/env"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/ckarras/.lmstudio/bin"
