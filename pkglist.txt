@@ -8,6 +8,7 @@ companion
 dbeaver
 discord
 docker
+docker-buildx
 docker-compose
 exa
 google-chrome
