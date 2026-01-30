@@ -34,6 +34,7 @@ brew install git
 \ asdf
 \ node
 \ azure-cli
+\ polypane
 
 # Set zsh as default shell
 chsh -s /bin/zsh
