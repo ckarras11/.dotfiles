@@ -66,3 +66,10 @@ git config --global user.email "you@your-domain.com"
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
+
+# Azure cli
+az login
+az upgrade
+az aks install-cli
+update hosts file
+
