@@ -33,6 +33,7 @@ brew install git
 \ zsh-autosuggestions
 \ asdf
 \ node
+\ azure-cli
 
 # Set zsh as default shell
 chsh -s /bin/zsh
