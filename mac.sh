@@ -35,6 +35,7 @@ brew install git
 \ node
 \ azure-cli
 \ polypane
+\ insomnia
 
 # Set zsh as default shell
 chsh -s /bin/zsh
